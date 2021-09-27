@@ -1,0 +1,41 @@
+$default-primary-text: #0fa3b1;
+$default-accent-text: #b5e2fa;
+$default-alert-text: red;
+$default-primary-background-color: #e9e9e9;
+$default-accent-background-color: #303030;
+$default-alert-background-color: #1d1d1d;
+
+.theme-default {
+  --primary-text: #{$default-primary-text};
+  --accent-text: #{$default-accent-text};
+  --alert-text: #{$default-alert-text};
+  --primary-background-color: #{$default-primary-background-color};
+  --accent-background-color: #{$default-accent-background-color};
+  --alert-background-color: #{$default-alert-background-color};
+  $primary-color: blue;
+}
+
+$dark-primary-text: #3bb273;
+$dark-accent-text: #e1bc29;
+$dark-alert-text: red;
+$dark-primary-background-color: #000;
+$dark-accent-background-color: #fff;
+$dark-alert-background-color: #e9e9e9;
+
+.theme-dark {
+  --primary-text: #{$dark-primary-text};
+  --accent-text: #{$dark-accent-text};
+  --alert-text: #{$dark-alert-text};
+  --primary-background-color: #{$dark-primary-background-color};
+  --accent-background-color: #{$dark-accent-background-color};
+  --alert-background-color: #{$dark-alert-background-color};
+  $primary-color: red;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;  
+}

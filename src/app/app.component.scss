@@ -1,0 +1,28 @@
+.app-wrapper {
+  background-color: var(--background-color);
+  height: 100%;
+  width: 300px;
+  padding: 1em;
+}
+
+p {
+  font-family: Lato;
+  margin: 0;
+  padding: 1em 1em 1em 0;
+  text-align: center;
+}
+
+p.primary {
+  color: var(--primary-text);
+  background-color: var(--primary-background-color);
+}
+
+p.accent {
+  color: var(--accent-text);
+  background-color: var(--accent-background-color);
+}
+
+p.alert {
+  color: var(--alert-text);
+  background-color: var(--alert-background-color);
+}
